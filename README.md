@@ -1,4 +1,5 @@
 # Break Seekers — Job Board (Next.js + Tailwind)
+live- https://break-seeker.netlify.app/jobs
 
 Break Seekers is a LinkedIn-style job board built using:
 
