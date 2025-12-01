@@ -1,0 +1,22 @@
+:root {
+  --bs-bg: #f3f4f6;
+  --bs-surface: #ffffff;
+  --bs-border: #e5e7eb;
+  --bs-text-main: #0f172a;
+  --bs-text-subtle: #6b7280;
+  --bs-primary: #2563eb;
+  --bs-primary-soft: #eff6ff;
+  --bs-primary-strong: #1d4ed8;
+  --bs-success: #16a34a;
+  --bs-danger: #dc2626;
+  --bs-radius-lg: 0.75rem;
+  --bs-radius-xl: 1rem;
+  --bs-shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+  --bs-shadow-subtle: 0 1px 3px rgba(15, 23, 42, 0.12);
+  --bs-transition-fast: 150ms ease-out;
+}
+
+body {
+  background-color: var(--bs-bg);
+  color: var(--bs-text-main);
+}

@@ -1,0 +1,20 @@
+.bs-container {
+  max-width: 72rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+/* Two-column jobs layout */
+.bs-jobs-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .bs-jobs-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

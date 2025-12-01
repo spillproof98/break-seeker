@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1",
+    "title": "Frontend Developer",
+    "company": "TechNova",
+    "location": "Remote",
+    "type": "Full-time",
+    "description": "Build UI components in React. Work with product & design teams.",
+    "postedDate": "2025-01-01"
+  },
+  {
+    "id": "2",
+    "title": "Full Stack Engineer",
+    "company": "CloudBridge",
+    "location": "Bengaluru",
+    "type": "Full-time",
+    "description": "Develop full-stack apps using Node.js, React, and cloud services.",
+    "postedDate": "2025-01-05"
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Designer",
+    "company": "AuraSoft",
+    "location": "Hyderabad",
+    "type": "Contract",
+    "description": "Design modern interfaces, create wireframes, prototypes.",
+    "postedDate": "2025-01-08"
+  }
+]

@@ -1,0 +1,30 @@
+@keyframes bs-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes bs-pulse-soft {
+  0% {
+    background-color: #e5e7eb;
+  }
+  50% {
+    background-color: #f3f4f6;
+  }
+  100% {
+    background-color: #e5e7eb;
+  }
+}
+
+.bs-fade-in {
+  animation: bs-fade-in 160ms ease-out;
+}
+
+.bs-pulse-soft {
+  animation: bs-pulse-soft 1.3s ease-in-out infinite;
+}

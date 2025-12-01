@@ -1,0 +1,58 @@
+@import "../styles/tokens.css";
+@import "../styles/animations.css";
+@import "../styles/components.css";
+@import "../styles/layout.css";
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* Simple global tweaks */
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* Nice shadow + hover lift for cards */
+.card {
+  @apply rounded-xl border border-slate-200 bg-white shadow-sm transition-transform transition-shadow;
+}
+.card-hover {
+  @apply hover:-translate-y-0.5 hover:shadow-md;
+}
+
+/* Pill buttons */
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-blue-600 px-4 py-1.5 text-sm font-medium text-white shadow-sm transition hover:bg-blue-700 active:scale-95;
+}
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-slate-300 px-4 py-1.5 text-sm font-medium text-slate-700 bg-white transition hover:border-blue-600 hover:text-blue-600 active:scale-95;
+}
+
+/* Input styles */
+.input {
+  @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-0 focus:border-blue-500 focus:ring-1 focus:ring-blue-500;
+}
+
+.select {
+  @apply w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm outline-none ring-0 focus:border-blue-500 focus:ring-1 focus:ring-blue-500;
+}
+
+/* Tag / badge */
+.badge {
+  @apply inline-flex items-center rounded-full bg-slate-100 px-2.5 py-0.5 text-xs font-medium text-slate-700;
+}
+.badge-blue {
+  @apply bg-blue-50 text-blue-700;
+}
+
+/* Skeleton shimmer */
+.skeleton {
+  @apply animate-pulse rounded-md bg-slate-200;
+}
